@@ -4,7 +4,7 @@
 $(document).ready(function () {
     window.r9 = JSON.parse('{"client":2444,"sourceOrigin":"https:\/\/voxpop.izooto.com","domainRoot":".","webPushId":"web.com.izooto.user1275","webServiceUrl":"https:\/\/safari.izooto.com\/services\/2678\/safari\/2444","isSdkHttps":0,"customPixelLink":"","mobileAllowed":1,"serviceWorkerName":"\/service-worker.js","manifestName":"\/manifest.json","desktopAllowed":1,"setEnr":1,"izootoStatus":1,"debug":0,"siteUrl":"http:\/\/www.voxpop.com","promptDelay":0,"repeatPromptDelay":20,"tagsEnabled":0,"welcomeNotification":{"status":0,"title":"","body":"","icon":"","url":"","showAfter":0,"clickTimeout":0}}');
     var container = document.body ? document.body : document.head;
-    var _iz = document.createElement("script");
-    _iz.id = "izootoSdk", _iz.src = "https://prod.r9engine.com/js/main.js", container.appendChild(_iz)
+    var _r9 = document.createElement("script");
+    _r9.id = "izootoSdk", _r9.src = "http://localhost/recommendation_engine/js/notify.js", container.appendChild(_r9)
 });
 </script>
